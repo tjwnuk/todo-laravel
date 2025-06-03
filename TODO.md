@@ -1,7 +1,9 @@
 **Opis zadania:**
-Stwórz aplikację "To-Do list", która umożliwia użytkownikowi dodawanie, edytowanie, przeglądanie i usuwanie zadań (CRUD) oraz wysyłanie powiadomień e-mail.\
--------------------------------------------------------------------------------------\
-**Wymagania funkcjonalne:**\
+Stwórz aplikację "To-Do list", która umożliwia użytkownikowi dodawanie, edytowanie, przeglądanie i usuwanie zadań (CRUD) oraz wysyłanie powiadomień e-mail.
+-------------------------------------------------------------------------------------
+
+**Wymagania funkcjonalne:**
+
 ***1\. CRUD:***
 - Pełne operacje CRUD (Create, Read, Update, Delete) na zadaniach, z następującymi polami:
 - Nazwa zadania (max 255 znaków, wymagane)
@@ -41,8 +43,10 @@ Laravel 11, REST API, Eloquent ORM, MySQL/SQLite, migracje baz danych.\
 ***2\. Front-end:***\
 Prosty interfejs użytkownika stworzony w Laravel Blade (opcjonalnie AJAX).\
 ***3\. (Opcjonalnie) Konfiguracja w Dockerze:***\
-Możliwość dostarczenia projektu z konfiguracją Docker (Dockerfile, docker-compose.yml). Dzięki temu uruchomienie aplikacji będzie łatwiejsze.\
--------------------------------------------------------------------------------------\
+Możliwość dostarczenia projektu z konfiguracją Docker (Dockerfile, docker-compose.yml). Dzięki temu uruchomienie aplikacji będzie łatwiejsze.
+
+-------------------------------------------------------------------------------------
+
 **Ocena projektu:**\
 Przy ocenie zwracamy największą uwagę na:
 - Poprawność działania (brak błędów, poprawnie wdrożone operacje CRUD)
@@ -50,12 +54,15 @@ Przy ocenie zwracamy największą uwagę na:
 - Strukturę i czytelność kodu (zgodność z zasadami SOLID, KISS)
 - Znajomość Laravel (obsługa Eloquent ORM, migracje, kontrolery, walidacja, powiadomienia, polityki itd.)
 - Obsługę błędów w aplikacji.
-- Wykonanie "Dodatkowe funkcje (opcjonalne)".\
+- Wykonanie "Dodatkowe funkcje (opcjonalne)".
+
 -------------------------------------------------------------------------------------
 
-**Czas realizacji:**\
-7 dni od otrzymania zadania.\
--------------------------------------------------------------------------------------\
+**Czas realizacji:**
+
+7 dni od otrzymania zadania.
+
+-------------------------------------------------------------------------------------
 **Instrukcje przekazania:**
 - Dołącz do repozytorium plik README.md z instrukcją uruchomienia i konfiguracji projektu.
 - Dołącz do repozytorium plik TODO.md z treścią zadania rekrutacyjnego.
@@ -63,8 +70,8 @@ Przy ocenie zwracamy największą uwagę na:
 - Prześlij link do repozytorium na GitHub/GitLab (upewnij się, że repozytorium jest publiczne).
 - Jeśli używasz Dockera, dodaj pliki konfiguracyjne i instrukcje uruchomienia w README.md.
 
-**Gotowe rozwiązanie wyślij na adres: <rekrutacja@gruparbr.pl>**\
--------------------------------------------------------------------------------------\
+**Gotowe rozwiązanie wyślij na adres: <rekrutacja@gruparbr.pl>**
+-------------------------------------------------------------------------------------
 PS: Brak któregokolwiek z pkt. "Instrukcji przekazania" może skutkować odrzuceniem zadania.
 
 Powodzenia! Czekamy na Twój projekt.
