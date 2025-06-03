@@ -25,10 +25,12 @@ Stwórz aplikację "To-Do list", która umożliwia użytkownikowi dodawanie, edy
 - Każdy użytkownik powinien mieć możliwość zalogowania się i zarządzania własnymi zadaniami (użyj systemu uwierzytelniania Laravela).
 
 ***6\. Udostępnianie zadań bez autoryzacji za pomocą linka z tokenem dostępowym:***
-- Umożliw użytkownikowi generowanie linków publicznych do zadań z tokenem dostępu. Link ma ograniczony czas działania, po którym dostęp do zadania zostaje zablokowany.\
+- Umożliw użytkownikowi generowanie linków publicznych do zadań z tokenem dostępu. Link ma ograniczony czas działania, po którym dostęp do zadania zostaje zablokowany.
+
 -------------------------------------------------------------------------------------
 
-**Dodatkowe funkcje (opcjonalne):**\
+**Dodatkowe funkcje (opcjonalne):**
+
 ***7\. Pełna historia edycji notatek:***
 - Zapisuj każdą zmianę zadań (nazwy, opisy, priorytety, statusy, daty itp.) wraz z możliwością przeglądania poprzednich wersji.
 
