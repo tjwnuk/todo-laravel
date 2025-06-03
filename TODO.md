@@ -38,16 +38,22 @@ Stwórz aplikację "To-Do list", która umożliwia użytkownikowi dodawanie, edy
 -------------------------------------------------------------------------------------
 
 **Wymagania techniczne:**\
-***1\. Back-end:***\
-Laravel 11, REST API, Eloquent ORM, MySQL/SQLite, migracje baz danych.\
-***2\. Front-end:***\
-Prosty interfejs użytkownika stworzony w Laravel Blade (opcjonalnie AJAX).\
-***3\. (Opcjonalnie) Konfiguracja w Dockerze:***\
+***1\. Back-end:***
+
+Laravel 11, REST API, Eloquent ORM, MySQL/SQLite, migracje baz danych.
+
+***2\. Front-end:***
+
+Prosty interfejs użytkownika stworzony w Laravel Blade (opcjonalnie AJAX).
+
+***3\. (Opcjonalnie) Konfiguracja w Dockerze:***
+
 Możliwość dostarczenia projektu z konfiguracją Docker (Dockerfile, docker-compose.yml). Dzięki temu uruchomienie aplikacji będzie łatwiejsze.
 
 -------------------------------------------------------------------------------------
 
-**Ocena projektu:**\
+**Ocena projektu:**
+
 Przy ocenie zwracamy największą uwagę na:
 - Poprawność działania (brak błędów, poprawnie wdrożone operacje CRUD)
 - Bezpieczeństwo aplikacji.
