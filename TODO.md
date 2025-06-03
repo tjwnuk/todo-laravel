@@ -37,7 +37,8 @@ Stwórz aplikację "To-Do list", która umożliwia użytkownikowi dodawanie, edy
 
 -------------------------------------------------------------------------------------
 
-**Wymagania techniczne:**\
+**Wymagania techniczne:**
+
 ***1\. Back-end:***
 
 Laravel 11, REST API, Eloquent ORM, MySQL/SQLite, migracje baz danych.
