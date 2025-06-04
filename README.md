@@ -1,1 +1,40 @@
-sudo chmod -R 777 storage
+# About
+
+Todo-app done in Laravel 11 for recruitment purposes.
+
+Author: Tomasz Wnuk
+Email : tjwnuk@proton.me
+
+## Clone
+
+After cloning repository give the right permissions to the files in project folder, the easiest way is:
+
+`cd todo-laravel`
+
+`sudo chmod -R 777 storage`
+
+## Run
+
+Build:
+
+`docker-compose build`
+
+Run:
+
+`docker-compose up`
+
+After first run you need to initialize the database:
+
+`docker-compose exec web bash`
+
+in the container run:
+
+`php artisan migrate`
+
+and its done
+
+## Note
+
+**always** stop previous containers on restart, otherwise the error will be thrown
+
+`docker-compose down`
