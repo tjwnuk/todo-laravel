@@ -1,4 +1,6 @@
-# About
+# todo-laravel
+
+## About
 
 Todo-app done in Laravel 11 for recruitment purposes.
 
