@@ -1,0 +1,49 @@
+/* Dominujący kolor: jasnofioletowy (#d6b3ff) */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9ff;
+    color: #333;
+}
+
+header {
+    background-color: #d6b3ff;
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu {
+    font-size: 28px;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+}
+
+.task {
+    background-color: #fff;
+    border-left: 6px solid #d6b3ff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.task h2 {
+    margin-top: 0;
+}
+
+.description {
+    color: #666;
+    margin: 5px 0 10px 0;
+}
