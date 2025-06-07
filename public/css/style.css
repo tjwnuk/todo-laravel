@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #d6b3ff;
+    background-color: #663399;
     color: #fff;
     padding: 15px 20px;
     display: flex;
@@ -32,7 +32,7 @@ main {
 
 .task {
     background-color: #fff;
-    border-left: 6px solid #d6b3ff;
+    border-left: 6px solid #663399;
     padding: 15px;
     margin-bottom: 15px;
     border-radius: 6px;
@@ -47,3 +47,19 @@ main {
     color: #666;
     margin: 5px 0 10px 0;
 }
+
+#tjwnuk,
+#tjwnuk:visited,
+#tjwnuk:hover,
+#tjwnuk:active {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* 
+kolory
+
+RebeccaPurple #663399 (ciemny fiolet)
+DarkSlateBlue #483D8B (granatowy)
+
+*/
