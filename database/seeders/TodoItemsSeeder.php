@@ -18,7 +18,7 @@ class TodoItemsSeeder extends Seeder
 
         DB::table('todo_items')->insert([
             [
-                'user_id' => 0,
+                'user_id' => 1,
                 'name' => 'Zaplanuj wakacje',
                 'description' => 'Zarezerwuj hotel i bilety lotnicze na urlop',
                 'priority' => 'medium',
@@ -28,7 +28,7 @@ class TodoItemsSeeder extends Seeder
                 'updated_at' => $now,
             ],
             [
-                'user_id' => 0,
+                'user_id' => 1,
                 'name' => 'Oddaj raport kwartalny',
                 'description' => 'Przygotuj i prześlij raport do działu finansów',
                 'priority' => 'high',
@@ -38,7 +38,7 @@ class TodoItemsSeeder extends Seeder
                 'updated_at' => $now,
             ],
             [
-                'user_id' => 0,
+                'user_id' => 1,
                 'name' => 'Przegląd samochodu',
                 'description' => 'Umów przegląd techniczny i wymianę oleju',
                 'priority' => 'medium',
@@ -48,7 +48,7 @@ class TodoItemsSeeder extends Seeder
                 'updated_at' => $now,
             ],
             [
-                'user_id' => 0,
+                'user_id' => 1,
                 'name' => 'Spotkanie z klientem',
                 'description' => 'Spotkanie online z klientem ABC w sprawie nowego projektu',
                 'priority' => 'high',
@@ -58,7 +58,7 @@ class TodoItemsSeeder extends Seeder
                 'updated_at' => $now,
             ],
             [
-                'user_id' => 0,
+                'user_id' => 1,
                 'name' => 'Zaktualizuj CV',
                 'description' => 'Dodaj nowe doświadczenia zawodowe i projekty',
                 'priority' => 'low',
@@ -68,7 +68,7 @@ class TodoItemsSeeder extends Seeder
                 'updated_at' => $now,
             ],
             [
-                'user_id' => 0,
+                'user_id' => 1,
                 'name' => 'Zakupy domowe',
                 'description' => 'Kup artykuły spożywcze i środki czystości',
                 'priority' => 'low',
@@ -78,7 +78,7 @@ class TodoItemsSeeder extends Seeder
                 'updated_at' => $now,
             ],
             [
-                'user_id' => 0,
+                'user_id' => 1,
                 'name' => 'Trening biegowy',
                 'description' => 'Planowany bieg 10 km w parku',
                 'priority' => 'medium',
@@ -88,7 +88,7 @@ class TodoItemsSeeder extends Seeder
                 'updated_at' => $now,
             ],
             [
-                'user_id' => 0,
+                'user_id' => 1,
                 'name' => 'Webinar branżowy',
                 'description' => 'Udział w webinarze o nowych technologiach IT',
                 'priority' => 'medium',
@@ -98,7 +98,7 @@ class TodoItemsSeeder extends Seeder
                 'updated_at' => $now,
             ],
             [
-                'user_id' => 0,
+                'user_id' => 1,
                 'name' => 'Zakończ projekt X',
                 'description' => 'Dokończ implementację i testy końcowe',
                 'priority' => 'high',
@@ -108,7 +108,7 @@ class TodoItemsSeeder extends Seeder
                 'updated_at' => $now,
             ],
             [
-                'user_id' => 0,
+                'user_id' => 1,
                 'name' => 'Wizyta u dentysty',
                 'description' => 'Kontrola i czyszczenie zębów',
                 'priority' => 'medium',
