@@ -33,6 +33,10 @@ in the container run:
 
 `php artisan migrate`
 
+and import sample data
+
+`php artisan db:seed`
+
 and its done
 
 ## Note
@@ -40,3 +44,9 @@ and its done
 **always** stop previous containers on restart, otherwise the error will be thrown
 
 `docker-compose down`
+
+to reimport data delete previous volume dbdata by
+
+`docker-compose down -v'
+
+and import data again
