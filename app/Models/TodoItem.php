@@ -12,12 +12,12 @@ class TodoItem extends Model
         'description',
         'priority',
         'status',
-        'due_date',
+        'deadline',
         'user_id',
     ];
 
     protected $casts = [
-        'due_date' => 'date',
+        'deadline' => 'date',
     ];
 
     /**
