@@ -8,3 +8,6 @@ Route::get('/', function () {
 });
 
 Route::get('/todo', [TodoController::class, 'index']);
+Route::get('/todo/sort/priority', [TodoController::class, 'sortByPriority']);
+Route::get('/todo/sort/deadline', [TodoController::class, 'sortByDeadline']);
+Route::get('/todo/sort/status', [TodoController::class, 'sortByStatus']);
