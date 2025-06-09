@@ -5,6 +5,7 @@
 Todo-app done in Laravel 11 for recruitment purposes.
 
 Author: Tomasz Wnuk
+
 Email : tjwnuk@proton.me
 
 ## Clone
@@ -41,7 +42,7 @@ and its done
 
 ## Note
 
-**always** stop previous containers on restart, otherwise the error will be thrown
+always stop previous containers on restart, otherwise the error will be thrown
 
 `docker-compose down`
 
@@ -50,3 +51,19 @@ to reimport data delete previous volume dbdata by
 `docker-compose down -v'
 
 and import data again
+
+## Users
+
+Example users for testing:
+
+Test User
+email: test@example.com
+password: pass1234
+
+Marcin Testowy
+email: marcin@example.com
+password: pass1234
+
+Tomasz Testowy
+email: tomasz@example.com
+password: pass1234
