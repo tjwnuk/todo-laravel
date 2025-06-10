@@ -4,3 +4,6 @@
 - TodoController
 - DatabaseSeeder (sample users)
 - TodoItemsSeeder (sample tasks)
+- welcome page
+- todos' list
+- Authentication system
