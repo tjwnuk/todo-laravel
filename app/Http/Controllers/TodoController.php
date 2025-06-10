@@ -50,4 +50,33 @@ class TodoController extends Controller
 
         return view('todo', ['tasks' => $tasks]);
     }
+
+    public function create()
+    {
+        return view('create');
+    }
+
+    public function store(Request $request)
+    {
+        // Validate the incoming request data
+        $validated = $request->validate([
+            'name' => 'required|string|max:255',
+            'description' => 'nullable|string',
+            'priority' => 'nullable|integer',
+            'status' => 'nullable|string',
+            'deadline' => 'nullable|date',
+        ]);
+
+        // Add the authenticated user's ID to the validated data
+        $validated['user_id'] = Auth::id();
+
+        // Create a new Todo item using the validated data
+        $todo = TodoItem::create($validated);
+
+        // Return a JSON response with the created Todo and 201 status code
+        return response()->json([
+            'message' => 'Todo created successfully',
+            'todo' => $todo,
+        ], 201);
+    }
 }
