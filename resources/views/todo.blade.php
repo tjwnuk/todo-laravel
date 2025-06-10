@@ -9,20 +9,23 @@
 </head>
 <body>
     <header>
-        <div class="title">todo-laravel</div>
-        <div>by <a href="https://github.com/tjwnuk" target="_blank" rel="noopener noreferrer" id="tjwnuk">tjwnuk</a></div>
-        <!-- <div class="menu">&#9776;</div> -->
-        
-    <div class="menu-container">
-        <div class="menu-button">Sort by ▾</div>
-        <div class="menu-dropdown" id="menuDropdown">
-            <a href="/todo">Default</a>
-            <a href="/todo/sort/priority">Priority</a>
-            <a href="/todo/sort/status">Status</a>
-            <a href="/todo/sort/deadline">Deadline</a>
+        <div>
+            <div class="title">todo-laravel</div>
+            <div class="tjwnuk">by <a href="https://github.com/tjwnuk" class="tjwnuk" target="_blank" rel="noopener noreferrer">tjwnuk</a></div>
         </div>
-    </div>
-
+        
+        <div class="menu-container">
+            <div class="menu-button">Sort by ▾</div>
+            <div class="menu-dropdown" id="menuDropdown">
+                <a href="/todo">Default</a>
+                <a href="/todo/sort/priority">Priority</a>
+                <a href="/todo/sort/status">Status</a>
+                <a href="/todo/sort/deadline">Deadline</a>
+            </div>
+        </div>
+        
+        
+        <!-- <div class="menu">&#9776;</div> -->
     </header>
 
     <main>

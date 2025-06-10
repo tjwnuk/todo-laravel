@@ -44,17 +44,17 @@ main {
 }
 
 .description {
-    color: #666;
+    color: ;
     margin: 5px 0 10px 0;
 }
 
-#tjwnuk,
-#tjwnuk:visited,
-#tjwnuk:hover,
-#tjwnuk:active {
-    color: #fff;
-    text-decoration: underline;
+.tjwnuk,
+.tjwnuk:visited,
+.tjwnuk:hover,
+.tjwnuk:active {
+    color: #CBB3E5;
 }
+
 
 /* 
 kolory
