@@ -10,11 +10,13 @@ Email : tjwnuk@proton.me
 
 ## Clone
 
-After cloning repository give the right permissions to the files in project folder, the easiest way is:
+After cloning repository give the right permissions to the files in project folder.
+
+Yeah, I know that's unprofessional but for development purposes and simplicity just give all permissions for the files:
 
 `cd todo-laravel`
 
-`sudo chmod -R 777 storage`
+`sudo chmod -R 777 .`
 
 ## Run
 
@@ -57,6 +59,13 @@ and import data again
 Example users for testing:
 
 ----------------
+Administrator
+
+email: admin@example.com
+
+password: admin1234
+
+----------------
 Test User
 
 email: test@example.com
@@ -64,6 +73,15 @@ email: test@example.com
 password: pass1234
 
 ----------------
+
+Alicja Deweloperska
+
+email: alicja@example.com
+
+password: pass1234
+
+----------------
+
 
 Marcin Testowy
 
@@ -76,13 +94,5 @@ password: pass1234
 Tomasz Testowy
 
 email: tomasz@example.com
-
-password: pass1234
-
-----------------
-
-Alicja Deweloperska
-
-email: alicja@example.com
 
 password: pass1234

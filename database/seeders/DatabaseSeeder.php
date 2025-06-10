@@ -32,32 +32,25 @@ class DatabaseSeeder extends Seeder
                 'email_verified_at' => Carbon::now(),
                 'password' => Hash::make('pass1234'),
                 'remember_token' => Str::random(10),
+                'role' => 'user',
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ]
         );
+
         User::firstOrCreate(
-            ['email' => 'marcin@example.com'],
+            ['email' => 'admin@example.com'],
             [
-                'name' => 'Marcin Testowy',
+                'name' => 'Administrator',
                 'email_verified_at' => Carbon::now(),
-                'password' => Hash::make('pass1234'),
+                'password' => Hash::make('admin1234'),
                 'remember_token' => Str::random(10),
+                'role' => 'admin',
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ]
         );
-        User::firstOrCreate(
-            ['email' => 'tomasz@example.com'],
-            [
-                'name' => 'Tomasz Testowy',
-                'email_verified_at' => Carbon::now(),
-                'password' => Hash::make('pass1234'),
-                'remember_token' => Str::random(10),
-                'created_at' => Carbon::now(),
-                'updated_at' => Carbon::now(),
-            ]
-        );
+
         User::firstOrCreate(
             ['email' => 'ala@example.com'],
             [
@@ -65,10 +58,38 @@ class DatabaseSeeder extends Seeder
                 'email_verified_at' => Carbon::now(),
                 'password' => Hash::make('pass1234'),
                 'remember_token' => Str::random(10),
+                'role' => 'user',
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ]
         );
+
+        User::firstOrCreate(
+            ['email' => 'marcin@example.com'],
+            [
+                'name' => 'Marcin Testowy',
+                'email_verified_at' => Carbon::now(),
+                'password' => Hash::make('pass1234'),
+                'remember_token' => Str::random(10),
+                'role' => 'user',
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
+            ]
+        );
+
+        User::firstOrCreate(
+            ['email' => 'tomasz@example.com'],
+            [
+                'name' => 'Tomasz Testowy',
+                'email_verified_at' => Carbon::now(),
+                'password' => Hash::make('pass1234'),
+                'remember_token' => Str::random(10),
+                'role' => 'user',
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
+            ]
+        );
+        
         
 
         $this->call([
