@@ -5,7 +5,7 @@
     <title>todo-laravel</title>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/dropdown.css') }}">
-    
+    @vite(['resources/js/app.js'])
 </head>
 <body>
     <header>
@@ -14,6 +14,8 @@
             <div class="tjwnuk">by <a href="https://github.com/tjwnuk" class="tjwnuk" target="_blank" rel="noopener noreferrer">tjwnuk</a></div>
         </div>
         
+        <a href="{{ url('/todo/create') }}" class="btn btn-success btn-md">Create</a>
+
         <div class="menu-container">
             <div class="menu-button">Sort by ▾</div>
             <div class="menu-dropdown" id="menuDropdown">

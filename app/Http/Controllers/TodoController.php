@@ -73,10 +73,7 @@ class TodoController extends Controller
         // Create a new Todo item using the validated data
         $todo = TodoItem::create($validated);
 
-        // Return a JSON response with the created Todo and 201 status code
-        return response()->json([
-            'message' => 'Todo created successfully',
-            'todo' => $todo,
-        ], 201);
+        return redirect('/todo')->with('success', 'Todo created successfully.');
+
     }
 }
