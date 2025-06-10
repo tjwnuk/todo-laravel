@@ -13,19 +13,7 @@
             <div class="title">todo-laravel</div>
             <div class="tjwnuk">by <a href="https://github.com/tjwnuk" class="tjwnuk" target="_blank" rel="noopener noreferrer">tjwnuk</a></div>
         </div>
-        
-        <div class="menu-container">
-            <div class="menu-button">Sort by ▾</div>
-            <div class="menu-dropdown" id="menuDropdown">
-                <a href="/todo">Default</a>
-                <a href="/todo/sort/priority">Priority</a>
-                <a href="/todo/sort/status">Status</a>
-                <a href="/todo/sort/deadline">Deadline</a>
-            </div>
-        </div>
-        
-        
-        <!-- <div class="menu">&#9776;</div> -->
+    
     </header>
 
     <main>
@@ -35,7 +23,7 @@
             <div class="welcome-description">
                 Todo-app done in Laravel 11 for recruitment purposes.
             </div>
-            <a href="/login" class="login-button">Przejdź do logowania</a>
+            <a href="/login" class="login-button">Log in</a>
         </div>
 
     </main>

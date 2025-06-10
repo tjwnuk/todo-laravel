@@ -104,3 +104,52 @@ DarkSlateBlue #483D8B (granatowy)
 .login-button:hover {
     background-color: #483D8B;
 }
+
+.user-dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.user-button {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #663399;
+    color: #fff;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.user-dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #fff;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    border-radius: 6px;
+    z-index: 1;
+    margin-top: 5px;
+}
+
+.user-dropdown-content a,
+.user-dropdown-content form button {
+    color: #333;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    background: none;
+    border: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+}
+
+.user-dropdown-content a:hover,
+.user-dropdown-content form button:hover {
+    background-color: #f1f1f1;
+}
+
+.user-dropdown:hover .user-dropdown-content {
+    display: block;
+}

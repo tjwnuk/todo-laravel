@@ -25,4 +25,16 @@ Route::middleware('auth')->group(function () {
     Route::get('/todo/sort/status', [TodoController::class, 'sortByStatus']);
 });
 
+Route::get('/profile', function () {
+    return view('profile');
+})->name('profile')->middleware('auth');
+
+Route::get('/profile', function () {
+    return view('profile');
+})->middleware(['auth'])->name('profile.edit');
+
+
+Route::post('/logout', [\App\Http\Controllers\Auth\AuthenticatedSessionController::class, 'destroy'])
+    ->name('logout');
+
 require __DIR__.'/auth.php';

@@ -23,6 +23,19 @@
                 <a href="/todo/sort/deadline">Deadline</a>
             </div>
         </div>
+
+        @auth
+        <div class="user-dropdown">
+            <div class="user-button">{{ Auth::user()->name }} ▾</div>
+            <div class="user-dropdown-content">
+                <!-- <a href="{{ route('dashboard') }}">Dashboard</a> -->
+                <form method="POST" action="{{ route('logout') }}">
+                    @csrf
+                    <button type="submit">Log out</button>
+                </form>
+            </div>
+        </div>
+        @endauth
         
         
         <!-- <div class="menu">&#9776;</div> -->
