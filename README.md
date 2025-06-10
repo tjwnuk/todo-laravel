@@ -56,14 +56,33 @@ and import data again
 
 Example users for testing:
 
+----------------
 Test User
+
 email: test@example.com
+
 password: pass1234
+
+----------------
 
 Marcin Testowy
+
 email: marcin@example.com
+
 password: pass1234
 
+----------------
+
 Tomasz Testowy
+
 email: tomasz@example.com
+
+password: pass1234
+
+----------------
+
+Alicja Deweloperska
+
+email: alicja@example.com
+
 password: pass1234

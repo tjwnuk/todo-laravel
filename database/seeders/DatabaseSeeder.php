@@ -58,6 +58,17 @@ class DatabaseSeeder extends Seeder
                 'updated_at' => Carbon::now(),
             ]
         );
+        User::firstOrCreate(
+            ['email' => 'ala@example.com'],
+            [
+                'name' => 'Alicja Deweloperska',
+                'email_verified_at' => Carbon::now(),
+                'password' => Hash::make('pass1234'),
+                'remember_token' => Str::random(10),
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
+            ]
+        );
         
 
         $this->call([
