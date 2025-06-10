@@ -63,3 +63,44 @@ RebeccaPurple #663399 (ciemny fiolet)
 DarkSlateBlue #483D8B (granatowy)
 
 */
+
+
+/* === DODANE STYLY DLA STRONY POWITALNEJ === */
+
+.welcome-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #f9f9ff;
+}
+
+.welcome-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #663399;
+}
+
+.welcome-description {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #555;
+}
+
+.login-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    background-color: #663399;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #483D8B;
+}
